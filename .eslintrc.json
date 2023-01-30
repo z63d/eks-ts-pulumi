@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": [
+    "unused-imports"
+  ],
+  "rules":  {
+    "@typescript-eslint/explicit-member-accessibility": 1,
+    "comma-dangle": ["error", "always-multiline"],
+    "unused-imports/no-unused-imports": "error"
+  }
+}
